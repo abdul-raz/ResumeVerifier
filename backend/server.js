@@ -8,7 +8,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get('/', (req, res) => {
-  res.send('ResumeChain backend is up and running!');
+  res.send('ResumeChin backend is up and running!');
 });
 
 const PORT = process.env.PORT || 5000;
